@@ -33,6 +33,13 @@ for j in range(1,n+1):
 
 '''
 
+n=int(input('Enter any number: '))
+for j in range(1,n+1):
+    for i in range(1,n+1):
+        print(i+1,end=' ')
+    print()
+
+
 # 21 4. WAP to print below menetion pattern.
 # 22 # 2
 # 23 # 2 4
