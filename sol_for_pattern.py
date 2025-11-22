@@ -40,55 +40,54 @@ for j in range(1,n+1):
     print()
 
 
-# 21 4. WAP to print below menetion pattern.
-# 22 # 2
-# 23 # 2 4
-# 24 # 2 4 6
-# 25 # 2 4 6 8
-# 26 # 2 4 6 8 10
-# 27
-# 28 5. WAP to print below menetion pattern.
-# 29 # 2
-# 30 # 4 6
-# 31 # 8 10 12
-# 32 # 14 16 18 20
-# 33 # 22 24 26 28
-# 34
-# 35 6. WAP to print below menetion pattern.
-# 36 # 1
-# 37 # 1 2
-# 38 # 1 2 3
-# 39 # 1 2 3 4
-# 40 # 1 2 3 4 5
-# 41
-# 42 7. WAP to print below menetion pattern.
-# 43 # 2
-# 44 # 2 4
-# 45 # 2 4 6
-# 46 # 2 4 6 8
-# 47 # 2 4 6 8 10
-# 48
-# 49
-# 50 8. WAP to print below menetion pattern.
-# 51 # A B C D E
-# 52 # A B C D E
-# 53 # A B C D E
-# 54 # A B C D E
-# 55 # A B C D E
-# 56
+# 4. WAP to print below menetion pattern.
+# 2
+# 2 4
+# 2 4 6
+# 2 4 6 8
+# 2 4 6 8 10
+
+# 5. WAP to print below menetion pattern.
+# 2
+# 4 6
+# 8 10 12
+# 14 16 18 20
+# 22 24 26 28
+
+# 6. WAP to print below menetion pattern.
+# 1
+# 1 2
+# 1 2 3
+# 1 2 3 4
+# 1 2 3 4 5
+
+#  7. WAP to print below menetion pattern.
+# 2
+# 2 4
+# 2 4 6
+# 2 4 6 8
+# 2 4 6 8 10
+
+# 8. WAP to print below menetion pattern.
+# A B C D E
+# A B C D E
+# A B C D E
+# A B C D E
+# A B C D E
+
 # 57 9. WAP to print below menetion pattern.
-# 58 # A
-# 59 # A B
-# 60 # A B C
-# 61 # A B C D
-# 62 # A B C D E
-# 63
-# 64 10. WAP to print below menetion pattern.
-# 65 # A
-# 66 # B C
-# 67 # D E F
-# 68 # G H I J
-# 69 # K L M N O
+# A
+# A B
+# A B C
+# A B C D
+# A B C D E
+
+# 10. WAP to print below menetion pattern.
+# A
+# B C
+# D E F
+# G H I J
+# K L M N O
 
 # 70
 # 71 11. WAP to print below menetion pattern.
