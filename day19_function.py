@@ -113,17 +113,20 @@
 # # 1. with argument (1.with return, 2.without return) #parameter needed
 # # 2. without argument (1. with return, 2.without return ) #parameter not needed
 
-# #with argument with return
-# # def add(x,y):
-# #     return x+y
+#with argument with return
+def add(x,y):
+    return x+y
 
-# # print(add(2,3))
+print(add(2,3))
 
-# # #with argument without return
-# # def add(x,y):
-# #     print(x+y)
+# with argument without return
+def add(x,y):
+    print(x+y)
 
-# # print(add(2,3))
+print(add(2,3))
+
+# without argument with return
+
 
 # #-------------------------------- day20-------------------------------------------
 # def factorial(a):
