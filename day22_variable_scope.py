@@ -125,12 +125,13 @@ while (True):
             if n==1:
                 numbers=int(input('How many numbers you want to add: '))
                 l=[]
-                for i in range(1,n+1):
-                    value=int(input(f'enterer {i} number'))
+                for i in range(1,numbers+1):
+                    value=int(input(f'enter {i} number '))
                     l.append(value)
                 sum=0
                 for i in l:
                     sum=sum+i
+                print(f'addition of {l} is {sum}')
         else:
             break # loop will terminate, calculator will off
     else:
