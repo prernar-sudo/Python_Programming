@@ -1,3 +1,7 @@
 Q:1 What is python
 
 Ans: Python is a general purpose programming language. It is widely used in the field of data analytics, data science, ai/ml
+
+2. What are the advantages of python?
+3. What are the limitations of python?
+4. Explain internal working of python?

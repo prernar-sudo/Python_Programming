@@ -93,3 +93,57 @@ def odd(n):
 res=filter(odd,l)
 print(list(res))
 
+#----------------------------------reduce---------------------------------
+#syntax: 
+'''
+    iterable
+    def func_name(parameter1,parameter2)
+
+    res=reduce(func_name,iterable)
+    # below is another syntax or method, initial value parameter is optional
+    res=reduce(func_name,iterable,initial value)
+    print(res)
+'''
+import functools
+l=[1,2,3,4,5]
+def sum(x,y):
+    return x+y
+
+res=functools.reduce(sum,l)
+#If we give initial value - then loop will run one time extra
+#if it is necessary than , we have to use initial value
+#res=functools.reduce(sum,l,0)
+print(res)
+
+def max_(x,y):
+    return max(x,y)
+res=functools.reduce(max_,l)
+print(res)
+
+def min_(x,y):
+    return min(x,y)
+res=functools.reduce(min_,l)
+print(res)
+
+def maxi(x,y):
+    if x>y:
+        return x
+    else:
+        return y
+res=functools.reduce(max,l)
+print(res)
+
+l1=[1,2,3,4]
+def sq_sum(x,y):
+    return x+y**2 # jo bhi value return hogi woh x mai store
+res=functools.reduce(sq_sum,l1,0)
+print(res)
+
+def fact(x,y):
+    fact=1
+    for i in range(1,y+1):
+        fact=fact*i
+    return x+fact
+
+res=functools.reduce(fact,l1,0)
+print(res)
