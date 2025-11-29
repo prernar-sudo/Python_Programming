@@ -13,14 +13,15 @@ for i in range(1,n+1):
 
 # Example 2: Write a program to
 # calculate the sum of n natural  numbers.(1+2+3+4+5+6=sum)
-n=int(input('eNter Number: '))
-for i in range(1,n+1):
-    if i<=n:
-        print(i,end='+')
+
 
 
 # Example 3: Write a program to
 # print n even natural number. (2,4,6,8,….)
+n=int(input("Enter the number: "))
+for i in range(1,n+1):
+    if i%2==0:
+        print(i,end=' ')
 
 
 # Example 4: Write a program to
