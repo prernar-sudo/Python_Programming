@@ -1,4 +1,8 @@
 #oops
+# object-->object is the instnace of class
+# 
+# class-> is the blueprint of the object
+# it is a design or a layout
 '''
     class Class_Name:
     # Class_Name: Recommended to type in camel case, bcoz class and function ,both called in same way, so to differentiate 
