@@ -1,5 +1,5 @@
 # #oops
-# # object-->object is the instnace of class
+# # object-->object is the instance of class
 # #object->physical existence of any class/design, real world entities
 # # 
 # # class-> is the blueprint of the object, dummy model
@@ -7,7 +7,7 @@
 # '''
 #     class Class_Name:
 #     # Class_Name: Recommended to type in camel case, bcoz class and function ,both called in same way, so to differentiate 
-#         # docstring()
+#         # docstring()---> which is usually in triple quote
 
 #     variables (properties)
 #         instance variable
