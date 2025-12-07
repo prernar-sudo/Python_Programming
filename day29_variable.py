@@ -38,6 +38,7 @@ obj.display()
 print(obj.n,obj.c,obj.r,obj.email)# calling outside of the class
 #------------------------------------------------------------------------
 class student:
+    name1='xyz'
     def __init__(self,name,contact):
         self.n=name #instance variable # declaration Inside constructor
         self.c=contact # declaration inside constructor
