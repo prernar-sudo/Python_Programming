@@ -100,3 +100,21 @@ class child(father,mother): # mro(method resolution order) logic applies here- w
         super().home()
 obj2=child()
 obj2.home()
+
+#--------------------Hierarchical Inheritance----------------------
+print('---hierarchical Inheritance')
+class A:
+    def home(self):
+        print('from class A')
+class B(A):
+    def home(self):
+        print('from class B')
+        C().home()
+class C(A):
+    def home(self):
+        print('from class c')
+        super().home()
+class D(B,C):
+    pass
+obj3=D()
+obj3.home()
