@@ -118,3 +118,5 @@ class D(B,C):
     pass
 obj3=D()
 obj3.home()
+# statisticall-> scatter plot -> correlation, spread of data
+# comperative
