@@ -3,7 +3,7 @@ class student:
     x=10
     y=20
 obj=student #internal constructor
-obj1=student() # external constructor --->parranthesis responsible for calling external constructor
+obj1=student() # external constructor --->paranthesis responsible for calling external constructor
 print(id(obj),id(obj1))#2278419176544 2278421129808
 # #----------------------------------
 # self ---> reference parameter/variable, that can hold address of current object
