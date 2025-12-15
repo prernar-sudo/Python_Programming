@@ -23,6 +23,8 @@ print(obj.n)
 
 #---------------------------static method-----------------------------------------
 # it is a kind of method which do not have any relationship with class variable, or instance 
+# a method whose first parameter is not self,neither cls
+# it is used for greetings only
 class stu:
     def __init__(self,roll):
         self.n=roll
