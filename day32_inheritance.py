@@ -6,9 +6,9 @@ class Parent:
 class child(Parent):
     pass
 ob=child()
-print(ob.x)
-ob.home()
-
+print(ob.x) #10
+ob.home() # From parent class
+print('--------Types of Inheritance-----------------')
 # 1. Single-level
 '''
     parent
@@ -56,6 +56,7 @@ ob.home()
 '''
 #---------------------------------------------------------------------------------
 #single level
+print('--------single level--------')
 # child class ki help se parent class ki properties/or to call method we use super keyword
 class parent:
     x=10

@@ -1,3 +1,19 @@
+#---------------------------------------------method--------------------------------------------------
+#     method (behaviour)
+#         constructor
+#         instance method: object dependent method is called instance method, aisi method jinka first parameter self hota hai
+#         class method: class dependent method is called class method
+#                       @classmethod
+#                       def update(cls, name,....):
+#        
+#         static method: which is not class and object dependent method 
+#                       aisi method jispe na self ho, na cls, but agar hum self ki jagah kuch bhi likhenge toh woh instance method ban jayegi
+#                       @staticmethod
+#                       def great():
+#                             print('hello')
+
+
+#-------------------------------------------------------------------------------------------------------
 #class method
 
 class student:

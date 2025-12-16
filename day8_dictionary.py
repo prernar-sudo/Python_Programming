@@ -29,11 +29,12 @@ dict = {1:'prerna',2:'21',3:'B.Tech'}
 print(sum(dict))
 
 #-----------------dict methods---------------
+print('-----dict methods---------------')
 #copy,clear,get,values, keys,items,frame keys, update, pop, popitems, setdefault
-print(dict.get(1))
+print(dict.get(1))#prerna
 
 d1=d.copy()
-print(d,d1)
+print(d,d1)# {'name': 'prerna', 'age': 23, 'quali': 'B.Tech'} {'name': 'prerna', 'age': 23, 'quali': 'B.Tech'}
 print(id(d),id(d1))#immutable in nature
 
 # d2=d.clear()
@@ -58,7 +59,7 @@ print(d)
 
 s='python'
 d=dict.fromkeys(s)#convert it into dictionary
-print(d)
+print(d)#{'p': None, 'y': None, 't': None, 'h': None, 'o': None, 'n': None}
 
 s1=[10,20,30,'python']
 d1=dict.fromkeys(s1,100)
