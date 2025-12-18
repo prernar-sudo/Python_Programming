@@ -39,7 +39,8 @@ print(l)
 # l.clear()#clear all element from list
 # print(l)
 # l.index(1)#findout order/location of any element
-# l.count()#findout frequncy of any element
+print("--------count-------------")
+l.count(0)#findout frequncy of any element
 print(l.pop())#remove index targeted element, by default it remove -1 index element
 print(l)
 

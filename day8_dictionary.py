@@ -1,12 +1,12 @@
-#dictionary
-#collection of key value pairs where 'key' and 'value' is separated by:
-#represented by {} with comma (,) separated pairs
+# dictionary
+# collection of key value pairs where 'key' and 'value' is separated by:
+# represented by {} with comma (,) separated pairs
 # {pair1, pair2, pair3}
-#key must be unique but value may be duplicate
-#mapped datatype
-#indexing not supported
-#slicing not supported
-#mutable in nature
+# key must be unique but value may be duplicate
+# mapped datatype
+# indexing not supported
+# slicing not supported
+# mutable in nature
 
 d={'name':'prerna','age':23,'quali':'B.Tech'}
 print(d,type(d))#code optimization----less memory, faster processing
@@ -92,6 +92,10 @@ d7={'x':10,'y':20}
 print(d7.setdefault('x',30))
 print(d7.setdefault('z',30))
 print(d7)
+
+
+
+
 
 
 

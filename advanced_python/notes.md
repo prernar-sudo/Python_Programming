@@ -49,7 +49,7 @@ DataFrame – 2D labeled data table (like an entire Excel sheet)
 
 
 # curve -kde ---> kernel density -> to remove curve 
-#
+# problem statement, dataset, task , data insights, conclusion
 
 
 
