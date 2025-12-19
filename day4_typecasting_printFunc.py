@@ -5,12 +5,12 @@
 
 x=10.5
 y=int(x)
-print(y)
+print(y)#10
 z=float(y)
-print(z)
+print(z)#10.0
 
 w=complex(z)
-print(w)
+print(w)#(10+0j)
 
 p=input()
 q=str(p)
@@ -27,10 +27,10 @@ s1=set(l1)
 print(s1)
 
 fs=frozenset(s1)
-print(fs)
+print(fs)#frozenset({10, 20, 30})
 
 #---------about print function------------ end , sep is argument-------------------
-#print does not start at new line, it et terminates to new line
+#print does not start at new line, it get terminates to new line
 #print->by default terminate to new line
 print(sep=' ',end='\n') #sep is separator
 print("Hello",end='') #we can end at , normal , or by giving space, or + sign, then see the magic
@@ -39,8 +39,8 @@ print("Hello", end='+')
 print("Welcome")
 
 #Separator
-print(10,20)
-print(10,20,sep=',')
+print(10,20)#10 20
+print(10,20,sep=',')#10,20
 
 #------------------input()----is used totake value from user at runtime------------
 x=input('Enter any value: ')

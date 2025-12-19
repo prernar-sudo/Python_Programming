@@ -10,7 +10,9 @@
 #         print(x+y)
 # print("Thanks for visit")
 
-#if and if else difference -> in if->the block may be executed ->in if else ->block will be executed
+#----------------------if and if else difference-------------------- 
+# In if->the block may be executed 
+# In if else ->block will be executed
 
 n=int(input("Enter any number: "))
 # if n%2==0:

@@ -9,18 +9,19 @@ print(s.index('t')) #2
 #space ->ascii value is 32 ->it will also take memory
 
 s1 = 'THIS IS PYTHON'
-print(s1.index('Y'))
+print(s1.index('Y'))# 9
 #print(s1.index('i'))  #substring not found
-print(s1.index('S I'))
+print(s1.index('S I'))# 3
 #print(s1.index('P',9)) #substring not found
-#print(s1.index('P',100))
-#print(s1.index('P',-2)) 
-#print(s1.index('P',5,8)) #stop point should be +1 -> 9
-#print(s1.index('P',5,4))
-print(s1.index('P',5,9))
+#print(s1.index('P',100))#substring not found
+#print(s1.index('P',-2)) #substring not found
+#print(s1.index('P',5,8)) #stop point should be +1 -> 9 # substring not found
+#print(s1.index('P',5,4))#substring not found
+print(s1.index('P',5,9))# 8
 
 #in index function , we have passed three arguments always
 
 list=[1,'two',3,4,5,6,7,8,9,10]
 element='two'
-print(list.index(element))
+print(list.index(element))#1
+print(list.index(3))#2

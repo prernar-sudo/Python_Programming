@@ -28,11 +28,19 @@ else:
 
 # Example 4: Write a program to
 # swap two variables without using third variable.
+#below more pythonic way
 a=40
 b=20
 a,b=b,a
 print('afer swap first number becomes: ',a)
 print('afer swap second number becomes: ',b)
+
+# second approach ->arithmetic method
+# a=10
+# b=20
+# a=a+b
+# b=a-b
+# a=a-b
 
 
 
@@ -66,7 +74,7 @@ print(f'After swap, second value {b}')
 # find squre root of given no.
 n=int(input('Enter Number: '))
 sqrt=n**2
-print(f'sqrt of {n} is: {sqrt}')
+print(f'sqrt of {n} is: {n**2}')
 
 
 
