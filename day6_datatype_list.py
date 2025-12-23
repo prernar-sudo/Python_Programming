@@ -65,6 +65,7 @@ print(l.count('python'))
 
 
 
+
 #differnce between function and method
 
 

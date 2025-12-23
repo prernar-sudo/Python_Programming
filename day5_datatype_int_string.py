@@ -12,7 +12,7 @@
 #tuple
 #dict
 
-#integer is immutable, crud operation can not be applied
+# 1.---------------integer is immutable, crud operation can not be applied
 x=10
 print(x)
 print(type(x))
@@ -22,7 +22,9 @@ print(id(x))
 # print(min(x))
 # print(len(x))
 #-----------all operators will apply on integer-------------------
-#---------------string-------------
+# Indexing, slicing not supported
+#2.---------------string-------------
+print("---------string------------")
 #collection of characters
 #represented by '/'''/"
 #indexing supported
@@ -30,8 +32,8 @@ print(id(x))
 #duplicates are allowed
 #immutable in nature-> find id of two element, address will occur same
 s='python programming'
-print(s,type(s))
-#string supports all methods, max, min,len, sum
+print(s,type(s))#python programming <class 'str'>
+#string supports all methods, max, min,len,  except sum
 #string supports python inbuilt functions: print,type,id,len,max,min,sum,input
 print(s)
 print(type(s))
@@ -42,9 +44,10 @@ print(min(s))
 #print(sum(s))#unsupported operand--------this is only in -built function which is not supported by the string 
 #magic_method or dinder method __ starts with double underscore and ends with double score, this we can seec eg type s. drop down menu or 
 #suggestion box will appear
-#methods----------of string
+#-------------------------methods----------of string
 #swapcase(),lower(),upper(), capitalize(),title(),index(),count(),split(),join(),find(),count(),replace()
 #s.
+print("----string method-------")
 print(s.swapcase())
 print(s)#reason->string nature is immutable->bcoz object is different, addressis changed
 print(s.upper())
@@ -57,8 +60,9 @@ print(s.index('y'))
 print(s.find('y'))#1
 print(s.find('Y'))#-1->means substring not found , to avoid error, we used find
 print(s.count('p'))#count->itcounts the frequency of any element-> how many time it get's repeated
-#tomorrow->we discuss split,join,replace
 
+#------------------------------split,join,replace----------------------------------------------------
+print("-----join-----------")
 #syntax of join: 'separator'.join(iterator/collection)
 s1='python'
 s2='java'
@@ -72,8 +76,9 @@ print(l)
 
 # a1='python'
 # a2=10
-# print(''.join['python',10])
-
+# print(''.join['python',10])# TypeError: 'builtin_function_or_method' object is not subscriptabl
+#-------------------------------------------------------------------------------------------------------
+print("--------split------------")
 #syntax of split -> string.split(),string.split('separator'),string.split('separator','How many times')
 s='This is python class'
 l=s.split()#by default it will split by space, how many times->till the time we have space
@@ -84,7 +89,7 @@ print(l)
 
 l=s.split('s',2)
 print(l)
-#why it is only spliint in list , there is a reason -> bcoz tuple is immutable, set and frozenset
+#why it is only spliting in list , there is a reason -> bcoz tuple is immutable, set and frozenset
 
 #replace
 
@@ -93,18 +98,21 @@ print(r.replace('i','z'))
 print(r.replace('i','z',1))
 print(r.replace('this','x'))
 
-#_isdigit
+#---------------_isdigit--------------------------
 x='10'
-print(x.isdigit())#it will be useful in loops
+print(x.isdigit())# True # it will be useful in loops
+#-----------------isalpha-------------------------
+x='abd'
+print(x.isalpha())#True
 
-#operators in string
+#-----------------------------------------operators in string--------------------------------------
 x1,x2='python','java'
 print(x1+x2)# + -> referred as concatenation
 #print(x1-x2)# - -> will give error
-print(x1*5)
-print(x1+x2,sep=',')#it will be s singl element so separator will not work
+print(x1*5)#pythonpythonpythonpythonpython
+print(x1+x2,sep=',')#it was a single element so separator will not work
 print('a'>'A')#true
-print('Python'>'java')
+print('Python'>'java')#False
 print('Python'>'Pava')#true, first letter is same , so it will check second char, andif that is also same then third , then proceed
 
 #-----------------------------------------logical and
@@ -112,13 +120,13 @@ print('Python'>'Pava')#true, first letter is same , so it will check second char
 _x='python'
 _y='java'
 print(_x and _y)#last true value is java, so it will come
-print(_y and _x)
+print(_y and _x)#python
 _z=''
-print(_x and _z)
+print(_x and _z)#space -> first false value appearing
 x=''
 print(bool(''))#False
 x='a'
-print(bool(x))
+print(bool(x))#true
 s1,s2='python',''
 print(s1 and s2)
 s1,s2='',''
@@ -156,9 +164,14 @@ print(s4 in s)#false ->bcoz order matter, string is a ordered collection
 
 #-------------------------------identity (is, is not)--compareon the basis of memory address, but (==) based on value it compares
 s1='python'
-s2='java'
-print(s1 is s2)
-print(s1 == s2)
+s2='python'
+print(s1 is s2)#True
+print(s1 == s2)#True
+
+s3='python'
+s4='java'
+print(s3 is s4)#False
+print(s3==s4)#False
 
 #------------------------------------bitwise 
 #------it is not applicable in string

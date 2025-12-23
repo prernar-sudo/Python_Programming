@@ -1,14 +1,14 @@
-# # s=input('Enter any value')#121
-# # if s==s[::-1]:
-# #     print(f'{s} is palindrome')
-# # else:
-# #     print(f'{s} is not palindrome')
-# # #-----------------------------------------------
-# # s_='python'
-# # s1=''
-# # for i in s_:
-# #     s1=i+s1
-# # print(s1)
+s=input('Enter any value')#121
+if s==s[::-1]:
+    print(f'{s} is palindrome')
+else:
+    print(f'{s} is not palindrome')
+#-----------------------------------------------
+s_='python'
+s1=''
+for i in s_:
+    s1=i+s1
+print(s1)
 
 # # #------------------------------------------------
 

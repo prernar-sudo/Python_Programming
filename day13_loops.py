@@ -34,7 +34,7 @@ s=input('Enter your name: ')
 s=s.replace(' ','')#removed space
 v=c=0
 print(s)
-# we are able to check alpha
+# we are able to check is the entered value is alpha bet or not
 if s.isalpha():
     print('alphabets')
     s=s.lower()
@@ -114,4 +114,5 @@ print(sum)
 n=5
 for i in range(1,6):
     print('*'*5)
+
 
